@@ -52,7 +52,74 @@ button{
   padding: 4rem;
   font-size: 2.5rem;
   align-items: baseline;
+  color: white;
+
 }
+.section2-1{
+  border-radius: 1rem;
+  padding-bottom: 5.5rem;
+  padding-top:4.5rem ;
+  padding-right: 7rem;
+  
+  background-color: #578263;
+}
+.section2-2{
+  border-radius: 1rem;
+  padding-bottom: 5.6rem;
+  padding-top:4.7rem ;
+  padding-right: 7rem;
+ 
+  background-color: #578263;
+}
+.section2-3{
+  border-radius: 1rem;
+  padding-bottom: 5.6rem;
+  padding-top:4.8rem ;
+  padding-right: 2rem;
+  background-color: #578263;
+}
+.section2-4{
+  border-radius: 1rem;
+  padding-bottom: 5.7rem;
+  padding-top:4.9rem ;
+  padding-right: 9rem;
+  
+  background-color: #578263;
+}
+/* section3 */
+.section3{
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  text-align: center;
+  padding: 5rem;
+  max-width: fit-content; 
+  word-wrap: break-word; 
+  font-size: 2rem;
+}
+.cection3-h3{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.section3-golvvård,.section3-fancy{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  font-weight: 600;
+  padding: 3rem;
+  word-wrap: break-word; 
+  max-width: fit-content;
+  padding: 4rem;
+}
+.cection3-text{
+  text-align: center;
+  font-size: 3rem;
+  padding: 2rem;
+  text-wrap: balance;
+}
+
+
 
 /* footer */
 .text{
