@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "company_name": "Hassvanie AB",
+      "email": "hassvanie.ab@example.com",
+      "telephone": "0987654321",
+      "address": "Elmvägen 1",
+      "city": "Stockholm",
+      "postcode": "90001",
+      "representant": "Hassvanie",
+      "representant_phone":"0707777777",
+      "password": "1111"
+    },
+    {
+        "id": 2,
+        "company_name": "Yuwaida AB",
+        "email": "yuwaida.ab@example.com",
+        "telephone": "0987654321",
+        "address": "Nyvägen 3",
+        "city": "Stockholm",
+        "postcode": "90001",
+        "representant": "Yuwaida",
+        "representant_phone":"0808888888",
+        "password": "2222"
+      }
+  ]

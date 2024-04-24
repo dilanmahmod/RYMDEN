@@ -1,0 +1,27 @@
+[
+
+    {
+        "id": 1,
+        "firstname": "Mikaela",
+        "lastname": "J",
+        "email": "Mikaela.j@example.com",
+        "telephone": "0987654321",
+        "address": "Nyvägen 3",
+        "city": "Stockholm",
+        "postcode": "90001",
+        "password": "admin",
+        "role": "admin"
+      },
+      {
+        "id": 2,
+        "firstname": "Nelly",
+        "lastname": "Andersson",
+        "email": "nelly.a@example.com",
+        "telephone": "0987654321",
+        "address": "Nyvägen 3",
+        "city": "Stockholm",
+        "postcode": "90001",
+        "password": "4567",
+        "role": "cleaner"
+      }
+  ]
