@@ -1,0 +1,48 @@
+.head {
+    background-color: #578263; /* Grön bakgrundsfärg för header */
+    margin-bottom: 15px;
+  }
+  
+  .head .navbar-brand {
+    color: white; /* Vit textfärg för navbar-länkar */
+  }
+  
+  .head .navbar-nav .nav-link {
+    color: white; /* Vit textfärg för nav-länkar */
+  }
+  
+  .head .navbar-nav .nav-link:hover,
+  .head .navbar-nav .nav-link.active {
+    color: white; 
+  }
+
+  
+h1 {
+    text-align:  center;
+  }
+  h3{
+    text-align: center;
+  }
+
+  .card {
+    margin-left: 25px;
+    background-color: rgb(221, 221, 221);
+  }
+
+  .list-group-item {
+background-color: rgb(221, 221, 221);
+  }
+
+  .card-header {
+    text-align: center;
+  }
+
+.list-group-item a {
+    text-decoration: none; /* Tar bort understreck från länkar */
+    color: black;
+  }
+  
+
+  .foot {
+    margin-top: 25px;
+  }
