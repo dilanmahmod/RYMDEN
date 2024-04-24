@@ -38,6 +38,7 @@
     </header>
 
     <section class="log style flex-grow-1 d-flex justify-content-center align-items-center">
+      
       <div class="text-center">
         <div class="header">
           <h1>Logga in som anställd</h1>
@@ -45,20 +46,22 @@
           <h3>Välkommen tillbaka, vi har saknat dig!</h3>
         </div>
         <br>
+        <form id="loginForm">
         <div class="input">
           <label for="email">Epost</label>
-          <input type="text" id="email">
+          <input type="email" class="form-control" id="inputEmail">
           <br>
           <label for="password">Lösenord</label>
-          <input type="password" id="password">
+          <input type="password" class="form-control" id="inputPassword">
           <br>
-          <button type="button">Logga in</button>
+          <button type="submit" type="button">Logga in</button>
           <hr>
         <p class="text">
           Är du inte kund? &nbsp;&nbsp; <a href="*">Skapa konto</a>
         </p>
         </div> 
       </div>
+    </form>
     </section>
   
     <footer class="foot">
@@ -82,7 +85,7 @@
         <hr>
       </div>
     </footer>
-
+    <script src="loggInAnställda.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
