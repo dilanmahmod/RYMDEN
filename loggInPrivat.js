@@ -12,17 +12,11 @@ const isvalidUser= (email, password)=>{
 
     if(findedUser ){
 
-        
-        if(findedUser.role==="private"){
             alert("Välkommen "+ findedUser.firstname+ " som privatkund.");
             console.log("Login successful.Redirecting to privatkund.html")
             localStorage.setItem('logged-inUserData', JSON.stringify(findedUser));
             window.location.href = "privatkund.html";
-        } else{
-            alert("Välkommen "+ findedUser.firstname+ " som företagkund.");
-            console.log("Login successful.Redirecting to företagskund.html")
-            window.location.href = "företagskund.html"; 
-        }
+        
     } else {
         alert("Ogiltig e-postadress eller ogiltigt lösenord. Vänligen försök igen")
         console.log("Invaid email eller password")

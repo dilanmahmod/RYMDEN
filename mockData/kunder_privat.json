@@ -8,8 +8,7 @@
       "address": "Mainvägen 7",
       "city": "Stockholm",
       "postcode": "10001",
-      "password": "1234",
-      "role": "private"
+      "password": "1234"
     },
     {
       "id": 2,
@@ -20,7 +19,6 @@
       "address": "Elmvägen 1",
       "city": "Stockholm",
       "postcode": "90001",
-      "password": "2345",
-      "role": "private"
+      "password": "2345"
     }
   ]
