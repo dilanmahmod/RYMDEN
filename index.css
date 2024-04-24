@@ -20,6 +20,8 @@ button{
   color: whitesmoke;
   padding-left: 8rem;
   padding-right: 8rem;
+  padding: 0.5rem;
+  font-weight: bold;
 }
 .text{
   display: flex;
@@ -32,9 +34,11 @@ button{
   font-size: 2rem;
   background-color:#578263;
   font-weight:600;
+  color: white;
 }
 .fab{
   font-size: 3rem;
   margin: 2rem;
+  color: white;
 }
 
