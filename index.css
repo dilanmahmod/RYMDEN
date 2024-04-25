@@ -97,11 +97,19 @@ button{
   padding-right: 9.5rem;
   background-color: #578263;
 }
-.section2-button{
+.section2-button1{
   font-size: 3rem;
   padding: 2rem;
   border-radius: 4rem;
+  text-decoration: underline;
 }
+.section2-button2{
+  font-size: 3rem;
+  padding: 2rem;
+  border-radius: 4rem;
+  text-decoration: underline;
+}
+
 /* section3 */
 .section3{
   display: flex;
