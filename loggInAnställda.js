@@ -11,7 +11,6 @@ const isvalidUser= (email, password)=>{
 
 
     if(findedUser ){
-
         
         if(findedUser.role==="admin"){
             alert("Välkommen "+ findedUser.firstname+ " som admin.");
@@ -21,6 +20,7 @@ const isvalidUser= (email, password)=>{
         } else{
             alert("Välkommen "+ findedUser.firstname+ " som städare.");
             console.log("Login successful.Redirecting to städare.html")
+            localStorage.setItem('logged-inUserData', JSON.stringify(findedUser));
             window.location.href = "städare.html"; 
         }
     } else {
