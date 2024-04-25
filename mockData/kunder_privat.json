@@ -20,5 +20,16 @@
       "city": "Stockholm",
       "postcode": "90001",
       "password": "2345"
+    },
+    {
+      "id": 3,
+      "firstname": "Dilan",
+      "lastname": "M",
+      "email": "dilan.m@example.com",
+      "telephone": "0908881234",
+      "address": "Gamlavägen 3",
+      "city": "Stockholm",
+      "postcode": "90001",
+      "password": "3456"
     }
   ]
