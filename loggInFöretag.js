@@ -11,7 +11,7 @@ const isvalidUser= (email, password)=>{
 
     if(findedUser ){
 
-            alert("Välkommen "+ findedUser.firstname+ " som privatkund.");
+            alert("Välkommen "+ findedUser.company_name+ " som företagkund.");
             console.log("Login successful.Redirecting to privatkund.html")
             localStorage.setItem('logged-inUserData', JSON.stringify(findedUser));
             window.location.href = "företagkund.html";
