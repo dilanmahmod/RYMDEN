@@ -41,11 +41,6 @@ describe('Login-flow as private customer', () => {
 
     cy.wait('@getCustomerData');
 
-    /* cy.get('@alertStub').then(alertStub => {
-      console.log(alertStub.arg); // Log the number of times alertStub was called
-      expect(alertStub).to.have.been.calledWith('Ogiltig e-postadress eller ogiltigt lösenord. Vänligen försök igen.');
-    }); */
-
     cy.get('@alertStub').then(alertStub => {
       console.log(alertStub.args); // Log the arguments passed to the alertStub function
       expect(alertStub).to.have.been.calledWith('Ogiltig e-postadress eller ogiltigt lösenord. Vänligen försök igen.');

@@ -1,4 +1,4 @@
-fetch('mockData/kunder_företag.json')
+fetch('mockData/kunder_foretag.json')
   .then(response => response.json())
   .then(data => {
 
@@ -14,10 +14,10 @@ const isvalidUser= (email, password)=>{
             alert("Välkommen "+ findedUser.company_name+ " som företagkund.");
             console.log("Login successful.Redirecting to privatkund.html")
             localStorage.setItem('logged-inUserData', JSON.stringify(findedUser));
-            window.location.href = "företagkund.html";
+            window.location.href = "foretagkund.html";
 
     } else {
-        alert("Ogiltig e-postadress eller ogiltigt lösenord. Vänligen försök igen")
+        alert("Ogiltig e-postadress eller ogiltigt lösenord. Vänligen försök igen.")
         console.log("Invaid email eller password")
         
     }

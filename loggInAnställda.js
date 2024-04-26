@@ -24,7 +24,7 @@ const isvalidUser= (email, password)=>{
             window.location.href = "städare.html"; 
         }
     } else {
-        alert("Ogiltig e-postadress eller ogiltigt lösenord. Vänligen försök igen")
+        alert("Ogiltig e-postadress eller ogiltigt lösenord. Vänligen försök igen.")
         console.log("Invaid email eller password")
         
     }
