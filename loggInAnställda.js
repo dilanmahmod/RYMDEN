@@ -1,4 +1,4 @@
-fetch('mockData/anställda.json')
+fetch('mockData/anstallda.json')
   .then(response => response.json())
   .then(data => {
 
@@ -21,10 +21,10 @@ const isvalidUser= (email, password)=>{
             alert("Välkommen "+ findedUser.firstname+ " som städare.");
             console.log("Login successful.Redirecting to städare.html")
             localStorage.setItem('logged-inUserData', JSON.stringify(findedUser));
-            window.location.href = "städare.html"; 
+            window.location.href = "stadare.html"; 
         }
     } else {
-        alert("Ogiltig e-postadress eller ogiltigt lösenord. Vänligen försök igen")
+        alert("Ogiltig e-postadress eller ogiltigt lösenord. Vänligen försök igen.")
         console.log("Invaid email eller password")
         
     }
