@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skapa konto</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Registrera dig</h2>
+        <form class="row g-3" action="submit_form_endpoint" method="POST">
+            <div class="col-md-6">
+                <label for="firstName" class="form-label">Förnamn</label>
+                <input type="text" class="form-control" id="firstName">
+            </div>
+            <div class="col-md-6">
+                <label for="lastName" class="form-label">Efternamn</label>
+                <input type="text" class="form-control" id="lastName">
+            </div>
+            
+            <div class="col-12">
+                <label for="inputAdress" class="form-label">Adress</label>
+                <input type="text" class="form-control" id="inputAdress">
+            </div>
+            <div class="col-12">
+                <label for="postnummer" class="form-label">Postnummer</label>
+                <input type="text" class="form-control" id="inputPostnummer">
+            </div>
+            <div class="col-md-6">
+                <label for="inputPostort" class="form-label">Postort</label>
+                <input type="text" class="form-control" id="inputPostort">
+            </div>
+            <div class="col-md-2">
+                <label for="personnummer" class="form-label">Personnummer</label>
+                <input type="text" class="form-control" id="personnummer">
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Registrera</button>
+            </div>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
