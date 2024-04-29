@@ -18,7 +18,7 @@ const isvalidUser= (email, password)=>{
             window.location.href = "privatkund.html";
         
     } else {
-        alert("Ogiltig e-postadress eller ogiltigt lösenord. Vänligen försök igen")
+        alert("Ogiltig e-postadress eller ogiltigt lösenord. Vänligen försök igen.")
         console.log("Invaid email eller password")
         
     }
