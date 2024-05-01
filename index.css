@@ -9,9 +9,9 @@ body{
   font-weight: bold;
 }
 
-ul.dropdown-menu {
+/* ul.dropdown-menu {
   display:contents;
-}
+} */
 
 /* loggin sidan */
 .header,h1{
